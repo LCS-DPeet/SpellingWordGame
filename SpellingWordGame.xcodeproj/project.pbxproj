@@ -6,17 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C1A8CF042DA42C6500ADE671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF012DA42C6500ADE671 /* ContentView.swift */; };
+		C1A8CF052DA42C6500ADE671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A8CEFE2DA42C6500ADE671 /* Preview Assets.xcassets */; };
+		C1A8CF062DA42C6500ADE671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A8CF002DA42C6500ADE671 /* Assets.xcassets */; };
+		C1A8CF0C2DA42C8100ADE671 /* SpellingWordGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF0A2DA42C8100ADE671 /* SpellingWordGameApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C1A8CE982DA4299800ADE671 /* SpellingWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A8CEFE2DA42C6500ADE671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1A8CF002DA42C6500ADE671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1A8CF012DA42C6500ADE671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1A8CF022DA42C6500ADE671 /* SpellingWordGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpellingWordGame.entitlements; sourceTree = "<group>"; };
+		C1A8CF0A2DA42C8100ADE671 /* SpellingWordGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingWordGameApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C1A8CE9A2DA4299800ADE671 /* SpellingWordGame */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SpellingWordGame;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C1A8CE952DA4299800ADE671 /* Frameworks */ = {
@@ -32,7 +36,7 @@
 		C1A8CE8F2DA4299800ADE671 = {
 			isa = PBXGroup;
 			children = (
-				C1A8CE9A2DA4299800ADE671 /* SpellingWordGame */,
+				C1A8CF032DA42C6500ADE671 /* SpellingWordGame */,
 				C1A8CE992DA4299800ADE671 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +47,50 @@
 				C1A8CE982DA4299800ADE671 /* SpellingWordGame.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A8CEFF2DA42C6500ADE671 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8CEFE2DA42C6500ADE671 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1A8CF032DA42C6500ADE671 /* SpellingWordGame */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8CF0A2DA42C8100ADE671 /* SpellingWordGameApp.swift */,
+				C1A8CF092DA42C7F00ADE671 /* Functions */,
+				C1A8CF082DA42C7D00ADE671 /* Models */,
+				C1A8CF072DA42C6B00ADE671 /* Views */,
+				C1A8CEFF2DA42C6500ADE671 /* Preview Content */,
+				C1A8CF002DA42C6500ADE671 /* Assets.xcassets */,
+				C1A8CF022DA42C6500ADE671 /* SpellingWordGame.entitlements */,
+			);
+			path = SpellingWordGame;
+			sourceTree = "<group>";
+		};
+		C1A8CF072DA42C6B00ADE671 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8CF012DA42C6500ADE671 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1A8CF082DA42C7D00ADE671 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1A8CF092DA42C7F00ADE671 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +107,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C1A8CE9A2DA4299800ADE671 /* SpellingWordGame */,
 			);
 			name = SpellingWordGame;
 			packageProductDependencies = (
@@ -109,6 +154,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A8CF052DA42C6500ADE671 /* Preview Assets.xcassets in Resources */,
+				C1A8CF062DA42C6500ADE671 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A8CF042DA42C6500ADE671 /* ContentView.swift in Sources */,
+				C1A8CF0C2DA42C8100ADE671 /* SpellingWordGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
