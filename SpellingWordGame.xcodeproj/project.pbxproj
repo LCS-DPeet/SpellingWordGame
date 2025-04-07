@@ -37,6 +37,7 @@
 			isa = PBXGroup;
 			children = (
 				C1A8CF032DA42C6500ADE671 /* SpellingWordGame */,
+				C1A8CF002DA42C6500ADE671 /* Assets.xcassets */,
 				C1A8CE992DA4299800ADE671 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,13 +61,12 @@
 		C1A8CF032DA42C6500ADE671 /* SpellingWordGame */ = {
 			isa = PBXGroup;
 			children = (
+				C1A8CF022DA42C6500ADE671 /* SpellingWordGame.entitlements */,
 				C1A8CF0A2DA42C8100ADE671 /* SpellingWordGameApp.swift */,
 				C1A8CF092DA42C7F00ADE671 /* Functions */,
 				C1A8CF082DA42C7D00ADE671 /* Models */,
 				C1A8CF072DA42C6B00ADE671 /* Views */,
 				C1A8CEFF2DA42C6500ADE671 /* Preview Content */,
-				C1A8CF002DA42C6500ADE671 /* Assets.xcassets */,
-				C1A8CF022DA42C6500ADE671 /* SpellingWordGame.entitlements */,
 			);
 			path = SpellingWordGame;
 			sourceTree = "<group>";
@@ -298,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SpellingWordGame/SpellingWordGame.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -325,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SpellingWordGame/SpellingWordGame.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
