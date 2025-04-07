@@ -11,14 +11,13 @@ struct Item: Identifiable {
     
     let id = UUID()
     let word: String
-    let imageName: String
+    let wordName: String
+    let sideImage: String
 }
 
 let words = [
     
-    Item(word: "Bread", imageName: "bread"),
-    Item(word: "Pickle", imageName: "pickle")
-    
+    Item(word: "pickle", wordName: "pickle", sideImage: "pickle")
     
     
 ]

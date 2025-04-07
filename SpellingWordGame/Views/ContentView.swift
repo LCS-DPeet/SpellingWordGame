@@ -29,9 +29,15 @@ struct GameView: View {
         HStack{
             
             VStack{
-                Image(currentItem.imageName)
-                    .resizable()
-                    .scaledToFit()
+                HStack {
+                    Image(currentItem.wordName)
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Rectangle()
+                        .frame(width: 50, height: 50)
+                }
+
                 
                 HStack {
                     TextField("What is the opposite to _______?", text: $userAnwser)
@@ -72,7 +78,7 @@ struct GameView: View {
                 ) { currentResult in
                     
                     HStack {
-                        Image (currentResult.item.imageName)
+                        Image (currentResult.item.wordName)
                             .resizable()
                             .scaledToFit()
                             .frame(width: 50)
