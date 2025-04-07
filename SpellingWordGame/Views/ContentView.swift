@@ -34,7 +34,8 @@ struct GameView: View {
                         .resizable()
                         .scaledToFit()
                     
-                    Rectangle()
+                    Image(currentItem.sideImage)
+                        .resizable()
                         .frame(width: 50, height: 50)
                 }
 
