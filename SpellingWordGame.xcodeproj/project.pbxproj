@@ -15,6 +15,7 @@
 		C1A8CF102DA4304600ADE671 /* WordItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF0F2DA4304600ADE671 /* WordItems.swift */; };
 		C1A8CF122DA4307000ADE671 /* AnwserOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF112DA4307000ADE671 /* AnwserOutcome.swift */; };
 		C1A8CF142DA4307B00ADE671 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF132DA4307B00ADE671 /* Results.swift */; };
+		C1A8CF162DA499F100ADE671 /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF152DA499F000ADE671 /* OpeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C1A8CF0F2DA4304600ADE671 /* WordItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItems.swift; sourceTree = "<group>"; };
 		C1A8CF112DA4307000ADE671 /* AnwserOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnwserOutcome.swift; sourceTree = "<group>"; };
 		C1A8CF132DA4307B00ADE671 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		C1A8CF152DA499F000ADE671 /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				C1A8CF012DA42C6500ADE671 /* ContentView.swift */,
+				C1A8CF152DA499F000ADE671 /* OpeningView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				C1A8CF102DA4304600ADE671 /* WordItems.swift in Sources */,
 				C1A8CF042DA42C6500ADE671 /* ContentView.swift in Sources */,
 				C1A8CF0C2DA42C8100ADE671 /* SpellingWordGameApp.swift in Sources */,
+				C1A8CF162DA499F100ADE671 /* OpeningView.swift in Sources */,
 				C1A8CF122DA4307000ADE671 /* AnwserOutcome.swift in Sources */,
 				C1A8CF0E2DA4302300ADE671 /* AnwserFilter.swift in Sources */,
 			);

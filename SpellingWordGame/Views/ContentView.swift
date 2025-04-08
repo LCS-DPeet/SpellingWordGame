@@ -26,67 +26,72 @@ struct GameView: View {
     var body: some View {
         // left
         
-        HStack{
+        ZStack{
+            Rectangle()
+                .foregroundStyle(.red)
             
-            VStack{
-                HStack {
-                    Image(currentItem.wordName)
-                        .resizable()
-                        .scaledToFit()
-                    
-                    Image(currentItem.sideImage)
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                }
-
+            HStack{
                 
-                HStack {
-                    TextField("What is the opposite to _______?", text: $userAnwser)
-                    
-                    Text(currentOutcome.rawValue)
-                    
-                }
-                
-                HStack {
-                    
-                    Button {
-                        checkAnwser()
-                    } label: {
-                        Text("submit")
-                    }
-                    
-                    Button {
-                        newWord()
-                    } label: {
-                        Text("new")
-                    }
-               }
-            }
-            .padding()
-            
-            //right
-            
-            VStack {
-                
-                Picker("Filtering on", selection: $selectedOutcomeFilter) {
-                    Text("All restults").tag(Outcome.undetermined)
-                    Text("Correct").tag(Outcome.correct)
-                    Text("Incorrect").tag(Outcome.incorrect)
-                }
-                
-                List(
-                    filtering(originalList: history, on: selectedOutcomeFilter)
-                ) { currentResult in
-                    
+                VStack{
                     HStack {
-                        Image (currentResult.item.wordName)
+                        Image(currentItem.wordName)
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 50)
                         
-                        Text(currentResult.guessProvided)
-                        Spacer()
-                        Text(currentResult.outcome.rawValue)
+                        Image(currentItem.sideImage)
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                    }
+                    
+                    
+                    HStack {
+                        TextField("What is the opposite to _______?", text: $userAnwser)
+                        
+                        Text(currentOutcome.rawValue)
+                        
+                    }
+                    
+                    HStack {
+                        
+                        Button {
+                            checkAnwser()
+                        } label: {
+                            Text("submit")
+                        }
+                        
+                        Button {
+                            newWord()
+                        } label: {
+                            Text("new")
+                        }
+                    }
+                }
+                .padding()
+                
+                //right
+                
+                VStack {
+                    
+                    Picker("Filtering on", selection: $selectedOutcomeFilter) {
+                        Text("All restults").tag(Outcome.undetermined)
+                        Text("Correct").tag(Outcome.correct)
+                        Text("Incorrect").tag(Outcome.incorrect)
+                    }
+                    
+                    List(
+                        filtering(originalList: history, on: selectedOutcomeFilter)
+                    ) { currentResult in
+                        
+                        HStack {
+                            Image (currentResult.item.wordName)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 50)
+                            
+                            Text(currentResult.guessProvided)
+                            Spacer()
+                            Text(currentResult.outcome.rawValue)
+                        }
                     }
                 }
             }
@@ -116,9 +121,7 @@ struct GameView: View {
         userAnwser = ""
         currentOutcome = .undetermined
     }
-    
 }
-
 #Preview {
     GameView()
 }
