@@ -17,7 +17,7 @@ struct Item: Identifiable {
 
 let words = [
     
-    Item(word: "pickle", wordName: "pickle", sideImage: "pickle")
+    Item(word: "bad", wordName: "good", sideImage: "bad")
     
     
 ]

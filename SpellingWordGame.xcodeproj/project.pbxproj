@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1A8CF042DA42C6500ADE671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF012DA42C6500ADE671 /* ContentView.swift */; };
+		C1A8CF042DA42C6500ADE671 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF012DA42C6500ADE671 /* GameView.swift */; };
 		C1A8CF052DA42C6500ADE671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A8CEFE2DA42C6500ADE671 /* Preview Assets.xcassets */; };
 		C1A8CF062DA42C6500ADE671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A8CF002DA42C6500ADE671 /* Assets.xcassets */; };
 		C1A8CF0C2DA42C8100ADE671 /* SpellingWordGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF0A2DA42C8100ADE671 /* SpellingWordGameApp.swift */; };
@@ -15,21 +15,31 @@
 		C1A8CF102DA4304600ADE671 /* WordItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF0F2DA4304600ADE671 /* WordItems.swift */; };
 		C1A8CF122DA4307000ADE671 /* AnwserOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF112DA4307000ADE671 /* AnwserOutcome.swift */; };
 		C1A8CF142DA4307B00ADE671 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF132DA4307B00ADE671 /* Results.swift */; };
-		C1A8CF162DA499F100ADE671 /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF152DA499F000ADE671 /* OpeningView.swift */; };
+		C1A8CF162DA499F100ADE671 /* OpeningStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8CF152DA499F000ADE671 /* OpeningStudentView.swift */; };
+		C1D0F1A32DA58BCF00D05400 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1A22DA58BCF00D05400 /* PracticeView.swift */; };
+		C1D0F1A52DA58BE600D05400 /* TeacherassignedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1A42DA58BE600D05400 /* TeacherassignedView.swift */; };
+		C1D0F1A72DA58C2800D05400 /* OpeningTeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1A62DA58C2800D05400 /* OpeningTeacherView.swift */; };
+		C1D0F1AB2DA59FF100D05400 /* TeacherGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1AA2DA59FF100D05400 /* TeacherGameView.swift */; };
+		C1D0F1AD2DA5A1E900D05400 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1AC2DA5A1E900D05400 /* CreditsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1A8CE982DA4299800ADE671 /* SpellingWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A8CEFE2DA42C6500ADE671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1A8CF002DA42C6500ADE671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1A8CF012DA42C6500ADE671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1A8CF012DA42C6500ADE671 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C1A8CF022DA42C6500ADE671 /* SpellingWordGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpellingWordGame.entitlements; sourceTree = "<group>"; };
 		C1A8CF0A2DA42C8100ADE671 /* SpellingWordGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingWordGameApp.swift; sourceTree = "<group>"; };
 		C1A8CF0D2DA4302300ADE671 /* AnwserFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnwserFilter.swift; sourceTree = "<group>"; };
 		C1A8CF0F2DA4304600ADE671 /* WordItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItems.swift; sourceTree = "<group>"; };
 		C1A8CF112DA4307000ADE671 /* AnwserOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnwserOutcome.swift; sourceTree = "<group>"; };
 		C1A8CF132DA4307B00ADE671 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
-		C1A8CF152DA499F000ADE671 /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		C1A8CF152DA499F000ADE671 /* OpeningStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningStudentView.swift; sourceTree = "<group>"; };
+		C1D0F1A22DA58BCF00D05400 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		C1D0F1A42DA58BE600D05400 /* TeacherassignedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherassignedView.swift; sourceTree = "<group>"; };
+		C1D0F1A62DA58C2800D05400 /* OpeningTeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningTeacherView.swift; sourceTree = "<group>"; };
+		C1D0F1AA2DA59FF100D05400 /* TeacherGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherGameView.swift; sourceTree = "<group>"; };
+		C1D0F1AC2DA5A1E900D05400 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +94,13 @@
 		C1A8CF072DA42C6B00ADE671 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C1A8CF012DA42C6500ADE671 /* ContentView.swift */,
-				C1A8CF152DA499F000ADE671 /* OpeningView.swift */,
+				C1A8CF152DA499F000ADE671 /* OpeningStudentView.swift */,
+				C1D0F1A62DA58C2800D05400 /* OpeningTeacherView.swift */,
+				C1D0F1AC2DA5A1E900D05400 /* CreditsView.swift */,
+				C1A8CF012DA42C6500ADE671 /* GameView.swift */,
+				C1D0F1A22DA58BCF00D05400 /* PracticeView.swift */,
+				C1D0F1A42DA58BE600D05400 /* TeacherassignedView.swift */,
+				C1D0F1AA2DA59FF100D05400 /* TeacherGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,11 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A8CF142DA4307B00ADE671 /* Results.swift in Sources */,
+				C1D0F1AB2DA59FF100D05400 /* TeacherGameView.swift in Sources */,
 				C1A8CF102DA4304600ADE671 /* WordItems.swift in Sources */,
-				C1A8CF042DA42C6500ADE671 /* ContentView.swift in Sources */,
+				C1A8CF042DA42C6500ADE671 /* GameView.swift in Sources */,
+				C1D0F1A32DA58BCF00D05400 /* PracticeView.swift in Sources */,
+				C1D0F1A72DA58C2800D05400 /* OpeningTeacherView.swift in Sources */,
 				C1A8CF0C2DA42C8100ADE671 /* SpellingWordGameApp.swift in Sources */,
-				C1A8CF162DA499F100ADE671 /* OpeningView.swift in Sources */,
+				C1D0F1A52DA58BE600D05400 /* TeacherassignedView.swift in Sources */,
+				C1A8CF162DA499F100ADE671 /* OpeningStudentView.swift in Sources */,
 				C1A8CF122DA4307000ADE671 /* AnwserOutcome.swift in Sources */,
+				C1D0F1AD2DA5A1E900D05400 /* CreditsView.swift in Sources */,
 				C1A8CF0E2DA4302300ADE671 /* AnwserFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
