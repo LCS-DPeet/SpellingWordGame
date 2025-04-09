@@ -13,8 +13,7 @@ struct OpeningStudentView: View {
         NavigationStack {
             
             ZStack{
-                
-                Rectangle()
+                Image("monkey1")
                 
                 VStack {
                     
@@ -27,19 +26,21 @@ struct OpeningStudentView: View {
                         NavigationLink("Play") {
                             GameView()
                         }
-                    }
-                    .navigationTitle("Home")
-                    
-                    NavigationLink("Practice") {
-                        GameView()
-                    }
-                    NavigationLink("Teacher Assigned Play") {
-                        GameView()
-                    }
-                    .navigationTitle("Home")
-                    
-                    NavigationLink("Educators") {
-                        TeacherGameView()
+                        
+                        .navigationTitle("Home")
+                        
+                        NavigationLink("Practice") {
+                            GameView()
+                        }
+                        NavigationLink("Credits") {
+                            Credits()
+                        }
+                        
+                        .navigationTitle("Home")
+                        
+                        NavigationLink("Educators") {
+                            TeacherGameView()
+                        }
                     }
                 }
             }

@@ -21,6 +21,12 @@
 		C1D0F1A72DA58C2800D05400 /* OpeningTeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1A62DA58C2800D05400 /* OpeningTeacherView.swift */; };
 		C1D0F1AB2DA59FF100D05400 /* TeacherGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1AA2DA59FF100D05400 /* TeacherGameView.swift */; };
 		C1D0F1AD2DA5A1E900D05400 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1AC2DA5A1E900D05400 /* CreditsView.swift */; };
+		C1D0F1AF2DA6C8A000D05400 /* EasyPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1AE2DA6C8A000D05400 /* EasyPracticeView.swift */; };
+		C1D0F1B12DA6C8AE00D05400 /* MediumPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1B02DA6C8AE00D05400 /* MediumPracticeView.swift */; };
+		C1D0F1B32DA6C8BC00D05400 /* HardPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1B22DA6C8BC00D05400 /* HardPracticeView.swift */; };
+		C1D0F1B52DA6C92B00D05400 /* EasyWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1B42DA6C92B00D05400 /* EasyWords.swift */; };
+		C1D0F1B72DA6C93600D05400 /* MediumWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1B62DA6C93600D05400 /* MediumWords.swift */; };
+		C1D0F1B92DA6C94100D05400 /* HardWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F1B82DA6C94100D05400 /* HardWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,12 @@
 		C1D0F1A62DA58C2800D05400 /* OpeningTeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningTeacherView.swift; sourceTree = "<group>"; };
 		C1D0F1AA2DA59FF100D05400 /* TeacherGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherGameView.swift; sourceTree = "<group>"; };
 		C1D0F1AC2DA5A1E900D05400 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		C1D0F1AE2DA6C8A000D05400 /* EasyPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyPracticeView.swift; sourceTree = "<group>"; };
+		C1D0F1B02DA6C8AE00D05400 /* MediumPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumPracticeView.swift; sourceTree = "<group>"; };
+		C1D0F1B22DA6C8BC00D05400 /* HardPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardPracticeView.swift; sourceTree = "<group>"; };
+		C1D0F1B42DA6C92B00D05400 /* EasyWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyWords.swift; sourceTree = "<group>"; };
+		C1D0F1B62DA6C93600D05400 /* MediumWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWords.swift; sourceTree = "<group>"; };
+		C1D0F1B82DA6C94100D05400 /* HardWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 				C1D0F1AC2DA5A1E900D05400 /* CreditsView.swift */,
 				C1A8CF012DA42C6500ADE671 /* GameView.swift */,
 				C1D0F1A22DA58BCF00D05400 /* PracticeView.swift */,
+				C1D0F1AE2DA6C8A000D05400 /* EasyPracticeView.swift */,
+				C1D0F1B02DA6C8AE00D05400 /* MediumPracticeView.swift */,
+				C1D0F1B22DA6C8BC00D05400 /* HardPracticeView.swift */,
 				C1D0F1A42DA58BE600D05400 /* TeacherassignedView.swift */,
 				C1D0F1AA2DA59FF100D05400 /* TeacherGameView.swift */,
 			);
@@ -109,6 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				C1A8CF0F2DA4304600ADE671 /* WordItems.swift */,
+				C1D0F1B42DA6C92B00D05400 /* EasyWords.swift */,
+				C1D0F1B62DA6C93600D05400 /* MediumWords.swift */,
+				C1D0F1B82DA6C94100D05400 /* HardWords.swift */,
 				C1A8CF112DA4307000ADE671 /* AnwserOutcome.swift */,
 				C1A8CF132DA4307B00ADE671 /* Results.swift */,
 			);
@@ -200,12 +218,18 @@
 				C1D0F1AB2DA59FF100D05400 /* TeacherGameView.swift in Sources */,
 				C1A8CF102DA4304600ADE671 /* WordItems.swift in Sources */,
 				C1A8CF042DA42C6500ADE671 /* GameView.swift in Sources */,
+				C1D0F1B92DA6C94100D05400 /* HardWords.swift in Sources */,
+				C1D0F1B72DA6C93600D05400 /* MediumWords.swift in Sources */,
 				C1D0F1A32DA58BCF00D05400 /* PracticeView.swift in Sources */,
 				C1D0F1A72DA58C2800D05400 /* OpeningTeacherView.swift in Sources */,
 				C1A8CF0C2DA42C8100ADE671 /* SpellingWordGameApp.swift in Sources */,
+				C1D0F1AF2DA6C8A000D05400 /* EasyPracticeView.swift in Sources */,
 				C1D0F1A52DA58BE600D05400 /* TeacherassignedView.swift in Sources */,
 				C1A8CF162DA499F100ADE671 /* OpeningStudentView.swift in Sources */,
+				C1D0F1B12DA6C8AE00D05400 /* MediumPracticeView.swift in Sources */,
+				C1D0F1B52DA6C92B00D05400 /* EasyWords.swift in Sources */,
 				C1A8CF122DA4307000ADE671 /* AnwserOutcome.swift in Sources */,
+				C1D0F1B32DA6C8BC00D05400 /* HardPracticeView.swift in Sources */,
 				C1D0F1AD2DA5A1E900D05400 /* CreditsView.swift in Sources */,
 				C1A8CF0E2DA4302300ADE671 /* AnwserFilter.swift in Sources */,
 			);

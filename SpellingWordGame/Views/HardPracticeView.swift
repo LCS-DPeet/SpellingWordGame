@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HardPracticeView.swift
 //  SpellingWordGame
 //
-//  Created by Danika Peet on 2025-04-07.
+//  Created by Danika Peet on 2025-04-09.
 //
 
 import SwiftUI
 
-struct GameView: View {
+struct HardPracticeView: View {
     
     //MARK: Stored properties
 
@@ -28,16 +28,7 @@ struct GameView: View {
         
         ZStack{
             Rectangle()
-            
-            // code came from AI: Link in credits
-                .fill(
-                    LinearGradient(
-                        colors: [Color.pink, Color.purple],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-            
+                .foregroundStyle(.red)
             
             HStack{
                 
@@ -96,25 +87,17 @@ struct GameView: View {
                     ) { currentResult in
                         
                         HStack {
-                                Image (currentResult.item.wordName)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 50)
-                                
-                                Text(currentResult.guessProvided)
-                                Spacer()
-                                Text(currentResult.outcome.rawValue)
-                            }
-                        }
-                        Rectangle()
-                        .frame(width: 300, height: 30)
-                            .cornerRadius(10)
-                            .padding(-30)
-                            .foregroundStyle(.gray)
+                            Image (currentResult.item.wordName)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 50)
                             
-                    
+                            Text(currentResult.guessProvided)
+                            Spacer()
+                            Text(currentResult.outcome.rawValue)
+                        }
+                    }
                 }
-                
             }
         }
     }
@@ -143,6 +126,7 @@ struct GameView: View {
         currentOutcome = .undetermined
     }
 }
+
 #Preview {
-    GameView()
+    HardPracticeView()
 }

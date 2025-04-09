@@ -9,7 +9,34 @@ import SwiftUI
 
 struct PracticeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+     
+        NavigationStack {
+            
+            ZStack {
+                Rectangle()
+                
+                VStack {
+                    
+                Text("Levels:")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
+                
+                    NavigationLink("Easy") {
+                        GameView()
+                    }
+                    
+                    NavigationLink("Medium") {
+                        GameView()
+                    }
+                    
+                    NavigationLink("Hard") {
+                        GameView()
+                    }
+                }
+                
+            }
+        }
     }
 }
 

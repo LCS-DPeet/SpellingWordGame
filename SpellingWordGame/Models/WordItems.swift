@@ -25,7 +25,7 @@ let words = [
     Item(word: "out", wordName: "In", sideImage: "Out"),
     Item(word: "end", wordName: "Start", sideImage: "End"),
     Item(word: "opposite", wordName: "Same", sideImage: "Opposite"),
-    Item(word: "closed", wordName: "Open", sideImage: "closed"),
+    Item(word: "closed", wordName: "Open", sideImage: "Closed"),
     Item(word: "big", wordName: "Small", sideImage: "Big"),
     Item(word: "love", wordName: "Hate", sideImage: "Love"),
     Item(word: "wet", wordName: "Dry", sideImage: "Wet"),
