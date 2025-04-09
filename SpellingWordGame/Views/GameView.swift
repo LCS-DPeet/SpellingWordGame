@@ -34,9 +34,13 @@ struct GameView: View {
                 
                 VStack{
                     HStack {
-                        Image(currentItem.wordName)
-                            .resizable()
-                            .scaledToFit()
+                        Text(currentItem.wordName)
+                            .foregroundStyle(.white)
+                            .font(.largeTitle)
+                        
+                        Text("Hint:")
+                            .foregroundStyle(.white)
+                            .bold()
                         
                         Image(currentItem.sideImage)
                             .resizable()
